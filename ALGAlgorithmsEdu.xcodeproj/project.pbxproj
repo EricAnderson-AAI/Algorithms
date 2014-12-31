@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		10537E281A527D35005E6FE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10537E271A527D35005E6FE0 /* main.m */; };
+		10537E301A527DB4005E6FE0 /* ALGQuicksort.m in Sources */ = {isa = PBXBuildFile; fileRef = 10537E2F1A527DB4005E6FE0 /* ALGQuicksort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		10537E241A527D35005E6FE0 /* ALGAlgorithmsEdu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ALGAlgorithmsEdu; sourceTree = BUILT_PRODUCTS_DIR; };
 		10537E271A527D35005E6FE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10537E2E1A527DB4005E6FE0 /* ALGQuicksort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALGQuicksort.h; sourceTree = "<group>"; };
+		10537E2F1A527DB4005E6FE0 /* ALGQuicksort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALGQuicksort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +61,18 @@
 			isa = PBXGroup;
 			children = (
 				10537E271A527D35005E6FE0 /* main.m */,
+				10537E311A527DBB005E6FE0 /* Algorithms */,
 			);
 			path = ALGAlgorithmsEdu;
+			sourceTree = "<group>";
+		};
+		10537E311A527DBB005E6FE0 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				10537E2E1A527DB4005E6FE0 /* ALGQuicksort.h */,
+				10537E2F1A527DB4005E6FE0 /* ALGQuicksort.m */,
+			);
+			name = Algorithms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10537E301A527DB4005E6FE0 /* ALGQuicksort.m in Sources */,
 				10537E281A527D35005E6FE0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
