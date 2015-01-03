@@ -6,16 +6,23 @@
 //  Copyright (c) 2014 Eric Anderson. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
+@import QuartzCore;
+
 #import "ALGQuicksort.h"
+#import "ALGInsertionSort.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
+        NSMutableArray *unsortedArray = [NSMutableArray arrayWithObjects:@1,@3,@2,@4,@6,@5,@7,@9,@8,@10, nil];
+        
         ALGQuicksort *quickSort = [ALGQuicksort new];
-        NSLog(@"Quicksort: %@",
-              [quickSort quicksort:[NSMutableArray
-                                    arrayWithObjects:@3,@4,@2,@6,@56,@14,@33,@1,@9,@6, nil]]);
+        
+        CFTimeInterval startTime = CACurrentMediaTime();
+        NSLog(@"%@", [quickSort quicksort:unsortedArray]);
+        CFTimeInterval elapsedTime = CACurrentMediaTime() - startTime;
+        NSLog(@"Quicksort time: %f", elapsedTime);
     }
     return 0;
 }

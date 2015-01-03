@@ -6,10 +6,13 @@
 //  Copyright (c) 2014 Eric Anderson. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 @interface ALGQuicksort : NSObject
 
-- (NSMutableArray *)quicksort:(NSMutableArray *)unsortedArray;
+// Quicksort divides an array into two smaller arrays
+// Low and high elements
+
+- (NSArray *)quicksort:(NSMutableArray *)unsortedArray;
 
 @end

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		10537E281A527D35005E6FE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10537E271A527D35005E6FE0 /* main.m */; };
 		10537E301A527DB4005E6FE0 /* ALGQuicksort.m in Sources */ = {isa = PBXBuildFile; fileRef = 10537E2F1A527DB4005E6FE0 /* ALGQuicksort.m */; };
+		105485821A576BFD0093902D /* ALGInsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 105485811A576BFD0093902D /* ALGInsertionSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		10537E271A527D35005E6FE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		10537E2E1A527DB4005E6FE0 /* ALGQuicksort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALGQuicksort.h; sourceTree = "<group>"; };
 		10537E2F1A527DB4005E6FE0 /* ALGQuicksort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALGQuicksort.m; sourceTree = "<group>"; };
+		105485801A576BFD0093902D /* ALGInsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALGInsertionSort.h; sourceTree = "<group>"; };
+		105485811A576BFD0093902D /* ALGInsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALGInsertionSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 			children = (
 				10537E2E1A527DB4005E6FE0 /* ALGQuicksort.h */,
 				10537E2F1A527DB4005E6FE0 /* ALGQuicksort.m */,
+				105485801A576BFD0093902D /* ALGInsertionSort.h */,
+				105485811A576BFD0093902D /* ALGInsertionSort.m */,
 			);
 			name = Algorithms;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			files = (
 				10537E301A527DB4005E6FE0 /* ALGQuicksort.m in Sources */,
 				10537E281A527D35005E6FE0 /* main.m in Sources */,
+				105485821A576BFD0093902D /* ALGInsertionSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +252,7 @@
 				10537E2D1A527D35005E6FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

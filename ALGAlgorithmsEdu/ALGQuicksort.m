@@ -14,7 +14,7 @@
 
 @implementation ALGQuicksort
 
-- (NSMutableArray *)quicksort:(NSMutableArray *)unsortedArray {
+- (NSArray *)quicksort:(NSMutableArray *)unsortedArray {
     NSMutableArray *low = [NSMutableArray new];
     NSMutableArray *high = [NSMutableArray new];
     
