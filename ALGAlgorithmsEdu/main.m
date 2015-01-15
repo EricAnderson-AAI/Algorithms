@@ -11,16 +11,18 @@
 
 #import "ALGQuicksort.h"
 #import "ALGInsertionSort.h"
+#import "ALGFisherYatesShuffle.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         NSMutableArray *unsortedArray = [NSMutableArray arrayWithObjects:@1,@3,@2,@4,@6,@5,@7,@9,@8,@10, nil];
         
-        ALGQuicksort *quickSort = [ALGQuicksort new];
+//        ALGQuicksort *quickSort = [ALGQuicksort new];
+        ALGFisherYatesShuffle *fisherYates = [ALGFisherYatesShuffle new];
         
         CFTimeInterval startTime = CACurrentMediaTime();
-        NSLog(@"%@", [quickSort quicksort:unsortedArray]);
+        NSLog(@"%@", [fisherYates fisherYatesShuffle:unsortedArray]);
         CFTimeInterval elapsedTime = CACurrentMediaTime() - startTime;
         NSLog(@"Quicksort time: %f", elapsedTime);
     }

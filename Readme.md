@@ -7,6 +7,7 @@ For fun I decided to write common algorithms in Objective-C.
 
 - [Quicksort algorithm](http://en.wikipedia.org/wiki/Quicksort)
 - [Insertion sort algorithm](http://en.wikipedia.org/wiki/Insertion_sort)
+- [Fisher Yates shuffle algorithm](http://en.wikipedia.org/wiki/Fisher-Yates_shuffle)
 - More algorithms coming...
 
 # Contribute 
